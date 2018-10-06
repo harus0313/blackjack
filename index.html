@@ -1,0 +1,108 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>BlackJackGame</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@Harus0313" />
+  <meta property="og:url" content="https://j.harus.work/" />
+  <meta property="og:title" content="Black Jack | harus.work " />
+  <meta property="og:description" content="Black Jack Card Game" />
+  <meta property="og:image" content="https://j.harus.work/img/SVG-cards/jack_of_spades.svg" />
+
+
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <div class="app">
+
+    <div class="board">
+        <h2 style="padding: 10px; margin: 0px;" >Black Jack</h2>
+
+
+        <div class="dealer">
+          <div class="container">
+<!--
+            <div class="row d1">Spade Q</div>
+            <div class="row d2">Diamond A</div>
+            <div class="row d3">
+              <img src="/img/SVG-cards/ace_of_spades.svg" class="trumpCard">
+            </div>
+-->
+          </div>
+        </div>
+
+        <div class="DealerScore" >
+          Dealer's Score: 20
+        </div>
+
+        <div class="player">
+          <h2 style="margin: 0px;">Player</h2>
+          
+
+          <div class="container">
+
+<!--
+            <div class="row p1">Spade Q</div>
+            <div class="row p2">Diamond A</div>
+            <div class="row p3">Diamond A</div>
+-->
+          </div>
+        </div>
+
+        <div class="PlayerScore">
+          Player's Score: 20
+        </div>
+
+        <label class="message"></label>
+
+        <div class="status" style="padding: 20px;">
+
+
+          <button class="deal">Deal</button>
+          <button class="stand" style="display: inline;">Stand</button>
+          <button class="reset" style="display: none;">Next Game</button>
+      
+          <div class="leftTime">Remaining Time: 60</div>
+          <div class="score"></div>
+          
+        </div>
+
+
+
+      </div>
+  </div>
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+<!--
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+-->
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
